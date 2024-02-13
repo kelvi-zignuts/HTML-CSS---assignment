@@ -178,7 +178,7 @@ header{
 .selling{
     background-color:#F7F7F7;
     width: 99vw;
-    height: 906px;
+    /* height: 800px; */
     top: 1500px;
     position: absolute;
 
@@ -220,8 +220,397 @@ header{
     border-radius: 20px;
     padding:1vh;
 }
+.product{
+    background-color: #FAFAFA;
+    left: 5rem;
+}
 .show{
     width: 1198.35px;
     height: 492px;
-    top: 1775px;
+    top: 1775rem;
+    /* background-color: #000000; */
+    left: 121rem;
+    align-items: center;
+    margin: 2vh auto;
+    display: flex;
+    gap:5rem;
+    justify-content: space-between;
+}
+.container{
+    width: 268.09rem;
+    /* background-color: antiquewhite; */
+    height: auto;
+}
+.item-info{
+    background-color:#FFFFFF;
+    border-radius: 1rem;
+    width: 14rem;
+    height: 9rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.item p{
+    top:1rem;
+}
+.iteam-sell{
+    background-color: #FAFAFA;
+}
+.plus{
+    display: flex;
+    border-radius: 2rem;
+    gap: 3rem;
+    width: 1rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+}
+.plus p{
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+.arrow{
+    width: 9vh;
+    height: 9vh;
+    margin-top: 1vh;
+    gap: 0.5rem;
+}
+.viewall{
+    font-size: 14px;
+    line-height: 25.9px;
+    color:#E58411;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.moreinfo img{
+    width: 48px;
+    height: 24px;
+    margin-top: 1.2vh;   
+}
+.text{
+    padding-top: 15rem;
+}
+.text h6{
+    font-family: "Gilroy-SemiBold";
+    color: #E58411;
+    font-size: 1.5rem;
+    padding-left:  10rem;
+    /* padding-top: 15rem; */
+    letter-spacing: 0.1rem;
+}
+.text h3{
+    font-size: 3rem ;
+    /* padding-top: 3rem;  
+    font-family: "Gilroy-SemiBold"; */
+    line-height: 3rem;
+    padding-left: 10rem;
+}
+.show-experience{
+    border-radius: 3rem;
+    padding-top: 15rem;
+    display: flex;
+    width:39rem;
+    
+}
+.experience{
+    display: flex;
+}
+.info p{
+    color: #000000;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    font-family: "Gilroy-SemiBold";
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.more-info{
+    display: flex;
+}
+.more-info p{
+    font-size: 1rem;
+    padding-left: 10rem;
+    padding-top: 2rem;
+    color: #E58411;
+}
+.more-info img{
+    padding-left: 1rem;
+    padding-top: 1.8rem;
+}
+.materials{
+    display: flex;
+}
+.material-content h6{
+    border-radius: 3rem;
+    padding-top: 10rem;
+    font-family: "Gilroy-SemiBold";
+    color: #E58411;
+    font-size: 1.5rem;
+    padding-left:  10rem;
+    letter-spacing: 0.1rem;
+}
+.material-content h3{
+    font-size: 3rem ;
+    /* padding-top: 3rem;  
+    font-family: "Gilroy-SemiBold"; */
+    line-height: 3rem;
+    padding-left: 10rem;
+    
+}
+.m-info p{
+    color: #000000;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    font-family: "Gilroy-SemiBold";
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.imgs{
+    display: flex;
+}
+.image1{
+    padding-top: 3rem;
+    padding-left: 4rem;
+    /* display: flex; */
+}
+.image2{
+    padding-top: 14rem;
+    /* padding-left: 60rem; */
+    /* display: flex; */
+}
+/* .testimonials{
+    display: flex;
+}
+.testimonials-content h4{
+    font-family: 'Gilroy-Bold';
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 3vh;
+    padding-left: 54rem;
+    color: #E58411;
+    letter-spacing: 0.1rem;
+}
+.testimonials-content h3{
+    font-family: 'Gilroy-Bold';
+    font-size: 2rem;
+    line-height: 3rem;
+    align-items: center;
+    padding-left: 52rem;
+} 
+.bg{
+    margin: auto;
+    background-color: grey;
+    width: 39vh;
+    height: 51vh;
+    padding-top: 26vh;
+    border-radius: 2vh;
+    display: flex;
+}
+.box{
+    display: flex;
+    position: absolute;
+}
+ .b-image{
+    border-radius: 2vh;
+    padding-top: 1vh;
+    width: 35vh;
+    height: 21vh;
+    margin: 2vh 2vh;
+    text-align: center;
+    color:#000000;
+    background-color: white;
+   
+} 
+.b-image h5{
+    font-family: 'Gilroy-Bold';
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+.b-image h6{
+    font-family: 'Gilroy-Bold';
+    text-align: center;
+    font-size: 0.7rem;
+    color: #1E1E1E;
+}
+.b-image p{
+    font-family: 'Gilroy-Bold';
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    opacity: 80%;
+    padding-top: 1rem ;
+} */
+/* .t-info{ */
+    /* background-color:#E58411; */
+    /* background-color: rgba(255,255,255,0.5);
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    opacity: 0.5;
+}*/
+#test-heading{
+    font-size: 3vh;
+    line-height: 2vh;
+    color: black;
+    font-family: 'Gilroy-Bold';
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 3vh;
+    padding-left: 54rem;
+    color: #E58411;
+    letter-spacing: 0.1rem;
+}
+#test-content{
+    font-family: 'Gilroy-Bold';
+    font-size: 2rem;
+    line-height: 3rem;
+    align-items: center;
+    padding-left: 52rem;
+}
+
+.testimonial-info{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 72%;
+    padding-top: 3rem;
+}
+
+.testimonial-info-card{
+    margin: auto 1.5vh;
+    padding-top: 21vh;
+    width: 39vh;
+    height: 60vh;
+    border-radius: 2vh;
+}
+
+.cilent-disc{
+    border-radius: 2vh;
+    padding-top: 1vh;
+    width: 32vh;
+    height: 21vh;
+    margin: 2vh 2vh;
+    text-align: center;
+    color:#000000;
+    background-color: white;
+}
+
+.b-image1{
+    background: url("img/b-img1.png");
+    background-repeat: no-repeat;
+}
+.b-image2{
+    background: url("img/b-img2.png");
+    background-repeat: no-repeat;
+}
+.b-image3{
+    background: url("img/b-img3.png");
+    background-repeat: no-repeat;
+}
+
+.client{
+    position: relative;
+    object-fit: cover;
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    border-radius: 50%;
+    top: -60px;
+}
+
+.cilent-disc p{
+    position: relative;
+    top: -60px;
+    font-family: 'Gilroy-Bold';
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    opacity: 80%;
+    padding-top: 1rem ;
+}
+.cilent-disc h3{
+    font-family: 'Gilroy-Bold';
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+.cilent-disc h4{
+    position: relative;
+    top: -60px;
+    font-family: 'Gilroy-Bold';
+    text-align: center;
+    font-size: 0.7rem;
+    color: #1E1E1E;
+}
+.rating{
+    position: relative;
+    top: -40px;
+    line-height: normal;
+}
+.sell-arrow{
+    width: 9vh;
+    height: 9vh;
+    margin-top: 22vh;
+    gap: 0.5rem;
+}
+.foot{
+    display: flex;
+    background-color: #F7F7F7;
+}
+.f-info h3{
+    padding-left: 10rem;
+    padding-top: 8rem;
+}
+.f-info p{
+    padding-left: 10rem;
+    padding-top: 2rem;
+    font-family: 'Gilroy-Bold';
+    font-size: 1rem;
+    width: 30rem;
+}
+/* .services h6{
+    padding-left:6rem;
+    padding-top: 8rem;
+    font-size:1rem;
+    color: #E58411;
+} */
+footer{
+    background-color: #F7F7F7;
+    display: flex;
+    padding: 6vh;
+}
+.f-info{
+    padding: 0 10vh;
+    width: 25%;
+}
+.f-info p{
+   padding: 0;
+   width: 150%;
+}
+.services{
+    padding: 0 10vh;
+    width: 25%;
+}
+.services h4{
+    font-size: 2vh;
+    color: #E58411;
+}
+.Furniture{
+    padding: 0 10vh;
+    width: 25%;
+}
+.Furniture h4{
+    font-size: 2vh;
+    color: #E58411;
+}
+.Follow{
+    padding: 0 10vh;
+    width: 25%;
+}
+.Follow h4{
+    font-size: 2vh;
+    color: #E58411;
+}
+.icon img{
+    padding-right: 2vh;
 }
