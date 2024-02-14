@@ -223,18 +223,42 @@ header{
 .product{
     background-color: #FAFAFA;
     left: 5rem;
+    
 }
 .show{
     width: 1198.35px;
     height: 492px;
     top: 1775rem;
-    /* background-color: #000000; */
     left: 121rem;
     align-items: center;
-    margin: 2vh auto;
+    margin-top:2vh;
     display: flex;
     gap:5rem;
     justify-content: space-between;
+    overflow-x: scroll;
+}
+.show::-webkit-scrollbar{
+    display:none;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+}
+#backBtn, #nextBtn{
+    width:9vh;
+    height: 9vh;
+    cursor:pointer;
+    /* margin:40px; */
+    margin-top: 18vh;
+}
+/* .swiper-container{
+    width: 100%;
+    height: auto;
+} */
+.card-wrapper{
+    display: flex;
 }
 .container{
     width: 268.09rem;
@@ -376,34 +400,58 @@ header{
     /* padding-left: 60rem; */
     /* display: flex; */
 }
-#test-heading{
+.test-heading{
     font-size: 3vh;
     line-height: 2vh;
     color: black;
     font-family: 'Gilroy-Bold';
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 3rem;
     margin-top: 3vh;
-    padding-left: 54rem;
+    /* padding-left: 15rem; */
     color: #E58411;
     letter-spacing: 0.1rem;
+    text-align: center;
 }
-#test-content{
+.test-content{
     font-family: 'Gilroy-Bold';
     font-size: 2rem;
     line-height: 3rem;
     align-items: center;
-    padding-left: 52rem;
+    /* padding-left: 25rem; */
+    text-align: center;
+}
+.t-section{
+    display: flex;
+    /* align-items: center; */
+    width: 81%;
+    justify-content: center;
+    margin: auto;
 }
 
+.testimonials{
+    margin: 15vh 10vh;
+    text-align: center;
+}
 .testimonial-info{
-    margin: auto;
+    /* margin: auto; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
     width: 72%;
     padding-top: 3rem;
+    gap: 1rem; */
+    overflow-x: scroll;
 }
-
+.testimonial-info::-webkit-scrollbar{
+    display: none;
+}
+#backBtn1, #nextBtn1{
+    width:9vh;
+    height: 9vh;
+    cursor:pointer;
+    /* margin:40px; */
+    margin-top: 20vh;
+}
 .testimonial-info-card{
     margin: auto 1.5vh;
     padding-top: 21vh;
@@ -534,12 +582,15 @@ footer{
 }
 .Follow{
     padding: 0 10vh;
+    
     width: 25%;
 }
 .Follow h4{
     font-size: 2vh;
     color: #E58411;
+    /* line-height: 1rem; */
 }
 .icon img{
     padding-right: 2vh;
 }
+
