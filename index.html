@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML/CSS/RESPONSIVE</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -14,7 +16,6 @@
         <nav>
             <div class="main">
                 <span class="fas fa-bars" id="navicon" onclick="toggle()"></span>
-                <!-- <i class="fa-solid fa-bars" id="menuicon" onclick="toggle()"></i> -->
                 <h4>Panto</h4>
                 <ul class="list" id="nav">
                     <!-- <a href="#"><img src="./img/Group 4161.png" alt=""></a> -->
@@ -87,16 +88,16 @@
         <section class="selling">
             <h3>Best Selling Product</h3>
             <ul class="option">
-                <li>Chair</li>
-                <li>Beds</li>
-                <li>Sofa</li>
-                <li>Lamp</li>
+                <li class="tablinks" onclick="openChair()">Chair</li>
+                <li class="tablinks" onclick="openBeds()">Beds</li>
+                <li class="tablinks" onclick="openSofa()">Sofa</li>
+                <li class="tablinks" onclick="openLamp()">Lamp</li>
             </ul>
 
             <div class="wrap">
                 <img src="img/previous.png" alt="left-arrow-img" id="backBtn">
 
-                <div class="show">
+                <div class="show" id="Chair">
                     <div class="product">
                         <img src="./img/chair1.png" alt="chair1" />
                         <div class="iteam-sell">
@@ -117,7 +118,7 @@
                         <div class="iteam-sell">
                             <div class="item-info">
                                 <p>Chair</p>
-                                <h4>Sakarias Armchair</h4>
+                                <h4>Baltsar Chair</h4>
                                 <img src="./img/star.png" alt="rate" />
                                 <div class="plus">
                                     <p><sup>$</sup>392</p>
@@ -132,7 +133,7 @@
                         <div class="iteam-sell">
                             <div class="item-info">
                                 <p>Chair</p>
-                                <h4>Sakarias Armchair</h4>
+                                <h4>Anjay Chair</h4>
                                 <img src="./img/star.png" alt="rate" />
                                 <div class="plus">
                                     <p><sup>$</sup>392</p>
@@ -147,7 +148,7 @@
                         <div class="iteam-sell">
                             <div class="item-info">
                                 <p>Chair</p>
-                                <h4>Sakarias Armchair</h4>
+                                <h4>Nyantuy Chair</h4>
                                 <img src="./img/star.png" alt="rate" />
                                 <div class="plus">
                                     <p><sup>$</sup>392</p>
@@ -232,6 +233,418 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="show" id="Beds">
+                    <div class="product">
+                        <img src="./img/chair1.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair2.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Baltsar Chair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair3.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Anjay Chair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Nyantuy Chair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="show" id="Sofa">
+                    <div class="product">
+                        <img src="./img/chair1.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair2.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Baltsar Chair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair3.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Anjay Chair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Nyantuy Chair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="show" id="Lamp">
+                    <div class="product">
+                        <img src="./img/chair1.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair2.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Baltsar Chair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair3.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Anjay Chair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Nyantuy Chair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="./img/chair4.png" alt="chair1" />
+                        <div class="iteam-sell">
+                            <div class="item-info">
+                                <p>Chair</p>
+                                <h4>Sakarias Armchair</h4>
+                                <img src="./img/star.png" alt="rate" />
+                                <div class="plus">
+                                    <p><sup>$</sup>392</p>
+                                    <img src="./img/plus.png" alt="plus" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <img src="img/next.png" alt="right-arrow-img" id="nextBtn">
             </div>
 
@@ -293,14 +706,11 @@
             </div>
         </section>
         <section class="testimonials">
-            <!-- <div class="t-heading"> -->
-                <h4 class="test-heading">TESTIMONIALS</h4>
-                <h3 class="test-content">Our Client Reviews</h3>
-            <!-- </div> -->
+            <h4 class="test-heading">TESTIMONIALS</h4>
+            <h3 class="test-content">Our Client Reviews</h3>
             <div class="t-section">
                 <img src="img/previous.png" alt="left-arrow-img" id="backBtn1" />
                 <div class="testimonial-info">
-                    <!-- <div class="card-slide"> -->
                     <div class="testimonial-info-card b-image1">
                         <div class="cilent-disc">
                             <img src="img/client1.png" alt="" class="client" />
@@ -403,53 +813,13 @@
                     <h4>Follow Us</h4>
                     <p class="icon"><img src="./img/facebook.png" alt="" />Facebook</p>
                     <p class="icon"><img src="./img/twitter.png" alt="" />Twitter</p>
-                    <p class="icon"><img src="./img/instagram.png" alt=""/>Instagram</p>
+                    <p class="icon"><img src="./img/instagram.png" alt="" />Instagram</p>
                 </div>
             </div>
-            
+
         </footer>
     </main>
-    <script>
-        //for selling
-        let swipeContainer = document.querySelector('.show');
-        let backBtn = document.getElementById("backBtn");
-        let nextBtn = document.getElementById("nextBtn");
-        swipeContainer.addEventListener('wheel', (evt) => {
-            evt.preventDefault();
-            swipeContainer.scrollLeft += evt.deltaY;
-        });
-
-        nextBtn.addEventListener('click', () => {
-            // scrollContainer.style.scrollBehavior = "smooth";
-            swipeContainer.scrollLeft += 900;
-        });
-        backBtn.addEventListener('click', () => {
-            // scrollContainer.style.scrollBehavior = "smooth";
-            swipeContainer.scrollLeft -= 900;
-        });
-
-        //for review
-        let swipeContainer1 = document.querySelector('.testimonial-info');
-        let backBtn1 = document.getElementById("backBtn1");
-        let nextBtn1 = document.getElementById("nextBtn1");
-        swipeContainer1.addEventListener('wheel', (evt) => {
-            evt.preventDefault();
-            swipeContainer1.scrollLeft += evt.deltaY;
-        });
-
-        nextBtn1.addEventListener('click', () => {
-            // scrollContainer.style.scrollBehavior = "smooth";
-            swipeContainer1.scrollLeft += 900;
-        });
-        backBtn1.addEventListener('click', () => {
-            //scrollContainer.style.scrollBehavior = "smooth";
-            swipeContainer1.scrollLeft -= 900;
-        });
-
-        const toggle=()=>{
-            document.getElementById('nav').classList.toggle('navactive')
-        }
-    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
