@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML/CSS/RESPONSIVE</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
         <nav>
             <div class="main">
+                <span class="fas fa-bars" id="navicon" onclick="toggle()"></span>
                 <!-- <i class="fa-solid fa-bars" id="menuicon" onclick="toggle()"></i> -->
                 <h4>Panto</h4>
-                <ul class="list">
+                <ul class="list" id="nav">
                     <!-- <a href="#"><img src="./img/Group 4161.png" alt=""></a> -->
                     <li>
                         <a href="#">Furniture<img src="./img/eva_arrow-ios-back-outline.png" alt="arrow" /></a>
@@ -85,10 +87,10 @@
         <section class="selling">
             <h3>Best Selling Product</h3>
             <ul class="option">
-                <li><a href="#">Chair</a></li>
-                <li><a href="#">Beds</a></li>
-                <li><a href="#">Sofa</a></li>
-                <li><a href="#">Lamp</a></li>
+                <li>Chair</li>
+                <li>Beds</li>
+                <li>Sofa</li>
+                <li>Lamp</li>
             </ul>
 
             <div class="wrap">
@@ -232,6 +234,7 @@
                 </div>
                 <img src="img/next.png" alt="right-arrow-img" id="nextBtn">
             </div>
+
             <div class="viewall">
                 <p>View All</p>
                 <img src="./img/grommet-icons_form-next-link.png" alt="next" />
@@ -290,10 +293,10 @@
             </div>
         </section>
         <section class="testimonials">
-            <div class="t-heading">
+            <!-- <div class="t-heading"> -->
                 <h4 class="test-heading">TESTIMONIALS</h4>
                 <h3 class="test-content">Our Client Reviews</h3>
-            </div>
+            <!-- </div> -->
             <div class="t-section">
                 <img src="img/previous.png" alt="left-arrow-img" id="backBtn1" />
                 <div class="testimonial-info">
@@ -376,31 +379,34 @@
 
         </section>
         <footer>
-            <div class="f-info">
-                <img src="./img/Logo.png" alt="logo" />
-                <p>
-                    The advantage of hiring a workspace with us is that givees you
-                    comfortable service and all-around facilities.
-                </p>
+            <div class="footer-content">
+                <div class="f-info">
+                    <img src="./img/Logo.png" alt="logo" />
+                    <p>
+                        The advantage of hiring a workspace with us is that givees you
+                        comfortable service and all-around facilities.
+                    </p>
+                </div>
+                <div class="services">
+                    <h4>Services</h4>
+                    <p>Email Marketing</p>
+                    <p>Campaigns</p>
+                    <p>Branding</p>
+                </div>
+                <div class="Furniture">
+                    <h4>Furniture</h4>
+                    <p>Beds</p>
+                    <p>Chair</p>
+                    <p>All</p>
+                </div>
+                <div class="Follow">
+                    <h4>Follow Us</h4>
+                    <p class="icon"><img src="./img/facebook.png" alt="" />Facebook</p>
+                    <p class="icon"><img src="./img/twitter.png" alt="" />Twitter</p>
+                    <p class="icon"><img src="./img/instagram.png" alt=""/>Instagram</p>
+                </div>
             </div>
-            <div class="services">
-                <h4>Services</h4>
-                <p>Email Marketing</p>
-                <p>Campaigns</p>
-                <p>Branding</p>
-            </div>
-            <div class="Furniture">
-                <h4>Furniture</h4>
-                <p>Beds</p>
-                <p>Chair</p>
-                <p>All</p>
-            </div>
-            <div class="Follow">
-                <h4>Follow Us</h4>
-                <p class="icon"><img src="./img/facebook.png" alt="" />Facebook</p>
-                <p class="icon"><img src="./img/twitter.png" alt="" />Twitter</p>
-                <p class="icon"><img src="./img/instagram.png" alt="" />Instagram</p>
-            </div>
+            
         </footer>
     </main>
     <script>
@@ -419,7 +425,7 @@
         });
         backBtn.addEventListener('click', () => {
             // scrollContainer.style.scrollBehavior = "smooth";
-            swipeContainer.scrollLeft -= 500;
+            swipeContainer.scrollLeft -= 900;
         });
 
         //for review
@@ -436,9 +442,13 @@
             swipeContainer1.scrollLeft += 900;
         });
         backBtn1.addEventListener('click', () => {
-            // scrollContainer.style.scrollBehavior = "smooth";
+            //scrollContainer.style.scrollBehavior = "smooth";
             swipeContainer1.scrollLeft -= 900;
         });
+
+        const toggle=()=>{
+            document.getElementById('nav').classList.toggle('navactive')
+        }
     </script>
 </body>
 
